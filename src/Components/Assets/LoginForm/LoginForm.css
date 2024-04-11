@@ -1,0 +1,125 @@
+/*Main Body*/
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px dotted beige;
+  backdrop-filter: blur(10px);
+  color: beige;
+  border-radius: 10px;
+  padding: 30px 40px ;
+}
+
+.wrapper:hover {
+    transform: scale(1.1);
+  }
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgb(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: beige;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+ color: beige;
+}
+
+/*Icons*/
+.input-box .icon{
+position: absolute;
+right: 20px;
+top: 35%;
+font-size: 16px;
+}
+
+/*Remember password*/
+/*Forgot password*/
+.wrapper .remember-forgot {
+ display: flex;
+ justify-content: space-between;
+ font-size: 20px;   
+ margin: 15px;
+}
+
+.remember-forgot label:hover {
+    transform: scale(1.1);
+  }
+
+/*Checkbox*/
+.remember-forgot label input {
+  accent-color: beige;
+  margin-right: 10px;
+ 
+}
+
+.remember-forgot label input:hover {
+    transform: scale(1.1);
+  }
+
+/*Forgot Link*/
+.remember-forgot a {
+    color: beige;
+    text-decoration: none;
+} 
+
+.remember-forgot a:hover {
+    transform: scale(1.1);
+
+}
+
+
+/*Login Button*/
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: beige;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Pixelify Sans", sans-serif;
+    color: rgb(205, 90, 203);
+    font-weight: 700;
+}
+.wrapper button:hover {
+    transform: scale(1.1);
+}
+
+/*Register*/
+.wrapper .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px;
+}
+
+/*Register Link*/
+.register-link p a {
+    color: beige;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.register-link p a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
